@@ -1,0 +1,75 @@
+h1, h2, h3, h4, a, p, li {
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-weight: bold;
+}
+a, p {
+	font-size: 1rem;
+}
+
+.bg-cyan { background: #16B9E2 !important }
+.bg-blue { background: #0E1926 !important }
+.bg-dark { background: #232522 !important }
+.bg-black { background: #1D1D1C !important }
+
+.header-bar .nav-link {
+	font-size: 14px;
+	color: rgba(255,255,255,.55);
+}
+.header-bar .nav-link:hover {
+	color: rgba(255,255,255,.75);
+}
+
+.sect-header {
+	text-align: center;
+	margin: auto;
+	max-width: 900px;
+}
+
+.rk-btn {
+	outline: none;
+	border: none;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 12px 30px;
+	width: 100%;
+	max-width: 320px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 30px;
+	transition: all 0.5s;
+}
+.rk-btn-primary {
+	color: #fff;
+	background: #1EBFFF;
+}
+.rk-btn-primary:hover {
+	background: #1B99DD;
+}
+.rk-btn-dark {
+	color: #fff;
+	background: #111;
+}
+.rk-btn-dark:hover {
+	background: #333;
+}
+.rk-btn-border {
+	border: 2px solid #fff;
+	color: #fff;
+	background: transparent;
+}
+.rk-btn-border:hover {
+	background: rgba(255,255,255,0.2);
+}
+
+.rk-checklist {
+	list-style-type: none;
+	font-size: 1rem;
+}
+.rk-checklist > li {
+	padding-bottom: 12px;
+}
+.rk-checklist.compressed > li {
+	padding-bottom: unset;
+}
