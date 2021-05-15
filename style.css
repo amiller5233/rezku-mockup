@@ -7,6 +7,10 @@ h1 {
 a, p {
 	font-size: 1rem;
 }
+section {
+	position: relative;
+	overflow: hidden;
+}
 
 .bg-cyan { background: #16B9E2 !important }
 .bg-blue { background: #0E1926 !important }
@@ -26,8 +30,17 @@ a, p {
 	margin: auto;
 	max-width: 900px;
 }
+.sect-bg-img {
+	position: absolute;
+	z-index: 0;
+}
 
+.img-fluid {
+	position: relative;
+	z-index: 9;
+}
 .rk-btn {
+	position: relative;
 	outline: none;
 	border: none;
 	font-size: 12px;
@@ -39,6 +52,7 @@ a, p {
 	letter-spacing: 2px;
 	border-radius: 30px;
 	transition: all 0.5s;
+	z-index: 9;
 }
 .rk-btn-primary {
 	color: #fff;
